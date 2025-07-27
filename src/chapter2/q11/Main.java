@@ -24,6 +24,24 @@ public class Main {
                 max = students.size();
                 result = i + 1;
             }
+
+            /*
+            for(int i = 0; i <=n; i++) {
+                int cnt = 0;
+                for(int j =0; j < n; j++) {
+                    for(int k = 0; k < 5; k++) {
+                        if(list[i][k] == list[j][k]) {
+                            cnt++;
+                            break;
+                        }
+                    }
+                }
+                if(cnt > max) {
+                    max = cnt;
+                    result = i + 1;
+                }
+            }
+             */
         }
         return result;
     }
