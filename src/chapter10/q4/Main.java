@@ -22,7 +22,7 @@ public class Main {
     }
 
     public static int solution(ArrayList<Block> blocks) {
-        int answer = 0;
+        int answer;
         Collections.sort(blocks);
         dy[0] = blocks.get(0).h;
         answer = dy[0];
